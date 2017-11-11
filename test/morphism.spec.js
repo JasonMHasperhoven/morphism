@@ -386,6 +386,7 @@ describe('Morphism', function () {
         it('should return undefined if undefined is given to map without doing any processing', function () {
             Morphism.register(User, { a: 'firstName'});
             expect(Morphism.map(User, undefined)).toEqual(undefined);
+            expect(Morphism.map(User, [undefined])).toEqual([undefined]);
         });
 
         it('should override the default value if source value is defined', function () {
