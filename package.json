@@ -1,7 +1,7 @@
 {
   "name": "morphism",
   "version": "0.6.1",
-  "description": "Helps you to transform any object structure to another",
+  "description": "Library to transform any Object / JSON to JavaScript Object Literals, and ES6 Class Objects. Help you scale your data processing",
   "homepage": "https://emyann.github.io/morphism/",
   "author": {
     "name": "Yann Renaudin",
